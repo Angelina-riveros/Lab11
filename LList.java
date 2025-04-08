@@ -254,7 +254,7 @@ public class LList<T> implements Iterable<T>, ListInterface<T>
       // throw a NoSuchElementException
       public T next() {
             // TODO: Implement next()
-            if (!hasNode()){
+            if (!hasNext()){
                 throw new NoSuchElementException();
             }
             T theData = nextNode.getData();
