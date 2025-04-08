@@ -278,8 +278,8 @@ public class LList<T> implements Iterable<T>, ListInterface<T>
             nodeBefore.setNextNode(nextNode);
          }
          previousNode = null;
-         numberOfEntries--;
          nextIndex--;
+         numberOfEntries--;
       }
    }
 } // end LList
